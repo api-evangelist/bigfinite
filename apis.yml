@@ -1,7 +1,18 @@
 aid: bigfinite
 name: Bigfinite
-description: Bigfinite is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bigfinite (now Aizon) is a B2B SaaS provider of AI-powered manufacturing
+  intelligence for pharmaceutical manufacturers and CDMOs. The platform turns
+  GxP manufacturing process data into ML-driven recommendations to improve
+  yield, reduce deviations, and prevent batch loss without replacing existing
+  MES, LIMS, or historian systems. Its product stack spans Aizon Execute
+  (intelligent electronic batch records), Aizon Unify (a GxP manufacturing data
+  platform with ALCOA++ integrity), Aizon Predict (operationalized ML for yield
+  optimization, CPV, and predictive quality), and Aizon Agentic Studio (a
+  natural-language application builder). Aizon runs single-tenant on AWS and
+  maintains ISO 27001, ISO 27017, SOC 2, GDPR, HIPAA, FDA 21 CFR Part 11, and
+  EU GMP Annex 11 compliance. Surfaced as a 500 Global portfolio company and
+  enriched from public web surfaces; the company publishes no public API.
 url: https://raw.githubusercontent.com/api-evangelist/bigfinite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/66059e0331df02f19a296791/662a4a3604d09bf267f38bca_aizon-favicon.png
 tags:
 - Company
+- Pharmaceutical Manufacturing
+- Manufacturing Intelligence
+- Artificial Intelligence
+- Machine Learning
+- GxP
+- Life Sciences
+- Data Platform
+- Quality
+- Batch Records
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://aizon.ai
+  url: https://www.aizon.ai
+- type: About
+  url: https://www.aizon.ai/about
+- type: Blog
+  url: https://www.aizon.ai/blog
+- type: PrivacyPolicy
+  url: https://www.aizon.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.aizon.ai/legal-disclaimer
+- type: Support
+  url: https://www.aizon.ai/contact
+- type: TrustCenter
+  url: https://www.aizon.ai/trust-center
+- type: Compliance
+  url: https://www.aizon.ai/trust-center
+- type: LLMsTxt
+  url: llms/bigfinite-llms.txt
+- type: DomainSecurity
+  url: security/bigfinite-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
